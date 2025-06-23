@@ -9,8 +9,8 @@ export function Skills() {
     {
       title: "Frontend Development",
       skills: [
-        { name: "React/Next.js", level: 95 },
-        { name: "TypeScript", level: 90 },
+        { name: "React/Next.js", level: 85 },
+        { name: "TypeScript", level: 80 },
         { name: "Tailwind CSS", level: 85 },
         { name: "Vue.js", level: 80 },
       ],
@@ -18,19 +18,19 @@ export function Skills() {
     {
       title: "Backend Development",
       skills: [
-        { name: "Node.js", level: 90 },
-        { name: "Python", level: 85 },
-        { name: "PostgreSQL", level: 80 },
+        { name: "Node.js", level: 80 },
+        { name: "Python", level: 90 },
+        { name: "PostgreSQL", level: 70 },
         { name: "MongoDB", level: 75 },
       ],
     },
     {
       title: "DevOps & Cloud",
       skills: [
-        { name: "AWS", level: 85 },
+        { name: "AWS", level: 75 },
         { name: "Docker", level: 80 },
-        { name: "CI/CD", level: 75 },
-        { name: "Kubernetes", level: 70 },
+        { name: "CI/CD", level: 70 },
+        { name: "Kubernetes", level: 60 },
       ],
     },
     {
@@ -47,7 +47,6 @@ export function Skills() {
   const certifications = [
     "AWS Certified Solutions Architect",
     "Google Cloud Professional",
-    "Certified Kubernetes Administrator",
     "MongoDB Certified Developer",
   ]
 

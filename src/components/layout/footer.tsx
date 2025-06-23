@@ -8,7 +8,7 @@ export function Footer() {
   const socialLinks = [
     {
       icon: Github,
-      href: "https://github.com",
+      href: "https://github.com/Muhadev",
       label: "GitHub",
     },
     {
@@ -18,7 +18,7 @@ export function Footer() {
     },
     {
       icon: Twitter,
-      href: "https://twitter.com",
+      href: "https://twitter.com/Muha_dev",
       label: "Twitter",
     },
     {
@@ -33,9 +33,9 @@ export function Footer() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
-            <h3 className="text-xl font-bold text-foreground mb-2">John Doe</h3>
+            <h3 className="text-xl font-bold text-foreground mb-2">Fayemi Muhammed</h3>
             <p className="text-muted-foreground">
-              Full Stack Developer • Building the future, one line of code at a time
+              Software Engineer • Building the future, one line of code at a time
             </p>
           </div>
 
@@ -57,7 +57,7 @@ export function Footer() {
 
         <div className="mt-8 pt-8 border-t border-border text-center">
           <p className="text-muted-foreground text-sm">
-            © {currentYear} John Doe. All rights reserved. Built with Next.js and Tailwind CSS.
+            © {currentYear} Fayemi Muhammed. All rights reserved.
           </p>
         </div>
       </div>

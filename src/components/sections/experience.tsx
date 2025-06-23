@@ -5,47 +5,45 @@ import { Badge } from "@/components/ui/badge"
 import { CalendarDays, MapPin } from "lucide-react"
 
 export function Experience() {
-  const experiences = [
-    {
-      title: "Senior Full Stack Developer",
-      company: "TechCorp Inc.",
-      location: "San Francisco, CA",
-      period: "2022 - Present",
-      description: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced application load time by 40% through performance optimization",
-        "Mentored 5 junior developers and established code review processes",
-        "Implemented CI/CD pipelines reducing deployment time by 60%",
-      ],
-      technologies: ["React", "Node.js", "AWS", "Docker", "PostgreSQL"],
-    },
-    {
-      title: "Full Stack Developer",
-      company: "StartupXYZ",
-      location: "Austin, TX",
-      period: "2020 - 2022",
-      description: [
-        "Built and maintained 3 customer-facing web applications",
-        "Collaborated with design team to implement responsive UI components",
-        "Integrated third-party APIs and payment processing systems",
-        "Participated in agile development processes and sprint planning",
-      ],
-      technologies: ["Vue.js", "Python", "MongoDB", "Redis", "Stripe API"],
-    },
-    {
-      title: "Frontend Developer",
-      company: "Digital Agency Pro",
-      location: "Remote",
-      period: "2019 - 2020",
-      description: [
-        "Developed responsive websites for 20+ clients across various industries",
-        "Optimized websites for SEO and accessibility standards",
-        "Collaborated with designers to translate mockups into functional interfaces",
-        "Maintained and updated existing client websites",
-      ],
-      technologies: ["JavaScript", "HTML/CSS", "WordPress", "jQuery", "SASS"],
-    },
-  ]
+ const experiences = [
+  {
+    title: "Junior Software Engineer",
+    company: "Mactavis Digital",
+    location: "Somolu, Lagos, Nigeria",
+    period: "January 2025 – June 2025",
+    description: [
+      "Developed and maintained a full-stack pizza ordering platform with integrated payment APIs.",
+      "Improved user experience through iterative UI design aligned with client requirements.",
+      "Built and extended RESTful APIs for an internal admin panel used by staff for order and user management.",
+      "Worked in an agile environment: performed code reviews, tested APIs, and collaborated with cross-functional teams.",
+    ],
+    technologies: ["Python", "Django", "Flask", "React", "TypeScript"],
+  },
+  {
+    title: "Intern Software Engineer",
+    company: "ALX Africa",
+    location: "Remote / Africa-wide",
+    period: "September 2024 – December 2024",
+    description: [
+      "Contributed features to an educational web platform including lesson modules and student progress tracking.",
+      "Focused on usability, performance optimization, and clean code practices.",
+      "Collaborated with mentors and developers in an agile, peer-review driven environment.",
+    ],
+    technologies: ["Python", "Flask", "React", "TypeScript", "MySQL", "Redis"],
+  },
+  {
+    title: "Software Engineer & Mentor",
+    company: "Africa Agility",
+    location: "Lagos, Nigeria",
+    period: "July 2024 – February 2025",
+    description: [
+      "Designed and taught web development modules during a Girls-in-Tech Bootcamp.",
+      "Mentored students through project planning, coding, testing, and deployment.",
+      "Helped over 20 young women build real-world applications and gain industry-ready skills.",
+    ],
+    technologies: ["React", "Node.js", "TypeScript", "MySQL", "Redis"],
+  },
+]
 
   return (
     <section id="experience" className="py-20 bg-muted/30">

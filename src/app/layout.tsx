@@ -7,13 +7,13 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "John Doe - Full Stack Developer",
+  title: "Fayemi Muhammed - Software Engineer",
   description:
-    "Professional portfolio of John Doe, a full stack developer specializing in React, Node.js, and modern web technologies.",
-  keywords: "full stack developer, react, node.js, typescript, web development, portfolio",
-  authors: [{ name: "John Doe" }],
+    "Professional portfolio of Fayemi Muhammed, a Software Engineer specializing in Python, Django/Flask, React and modern web technologies.",
+  keywords: "Software Engineer, Python, Django/Flask, react, node.js, typescript, web development, portfolio",
+  authors: [{ name: "Fayemi Muhammed" }],
   openGraph: {
-    title: "John Doe - Full Stack Developer",
+    title: "Fayemi Muhammed - Software Engineer",
     description: "Professional portfolio showcasing modern web development projects and expertise",
     type: "website",
   },

@@ -4,6 +4,7 @@ import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Moon, Sun, Menu, X } from "lucide-react"
 import { useTheme } from "next-themes"
+import { ResumeDownload } from "@/components/ui/resume-download"
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -41,25 +42,31 @@ export function Header() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
-            <h1 className="text-xl font-bold text-foreground">John Doe</h1>
+            <h1 className="text-xl font-bold text-foreground">Fayemi Muhammed</h1>
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:block">
-            <div className="flex items-center space-x-8">
-              {navItems.map((item) => (
-                <button
-                  key={item.href}
-                  onClick={() => scrollToSection(item.href)}
-                  className="text-muted-foreground hover:text-foreground transition-colors duration-200 font-medium"
-                >
-                  {item.label}
-                </button>
-              ))}
-            </div>
-          </nav>
-
           <div className="flex items-center space-x-4">
+            <nav className="hidden md:block">
+              <div className="flex items-center space-x-8">
+                {navItems.map((item) => (
+                  <button
+                    key={item.href}
+                    onClick={() => scrollToSection(item.href)}
+                    className="text-muted-foreground hover:text-foreground transition-colors duration-200 font-medium"
+                  >
+                    {item.label}
+                  </button>
+                ))}
+              </div>
+            </nav>
+
+            <ResumeDownload
+              variant="ghost"
+              size="sm"
+              className="hidden md:flex text-primary hover:text-primary/80 hover:bg-primary/10"
+            />
+
             <Button
               variant="ghost"
               size="icon"
@@ -96,6 +103,9 @@ export function Header() {
                   {item.label}
                 </button>
               ))}
+              <div className="px-3 py-2">
+                <ResumeDownload variant="outline" size="sm" className="w-full" />
+              </div>
             </div>
           </div>
         )}

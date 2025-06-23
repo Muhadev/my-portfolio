@@ -8,27 +8,27 @@ import Image from "next/image"
 
 export function Projects() {
   const projects = [
-    {
-      title: "E-Commerce Platform",
+      {
+      title: "TechMeet.io – Tech Event Management Platform",
       description:
-        "A full-stack e-commerce solution with real-time inventory management, payment processing, and admin dashboard. Built for scalability with microservices architecture.",
-      image: "/placeholder.svg?height=300&width=500",
-      technologies: ["React", "Node.js", "PostgreSQL", "Redis", "Stripe"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com",
+        "A full-stack platform for managing tech events, featuring event creation, ticket generation with QR codes, role-based access control, and real-time payment processing. Implemented Google/GitHub OAuth, email confirmations, and admin dashboards.",
+      image: "/placeholder.svg?height=300&width=500", // Replace with your actual image path
+      technologies: ["React", "Django", "MySQL", "Tailwind CSS", "JWT", "Paystack", "SendGrid"],
+      liveUrl: "https://techmeet.io", // Update with actual URL if live
+      githubUrl: "https://github.com/yourusername/techmeet", // Replace with actual repo link
       featured: true,
-      metrics: ["10K+ users", "99.9% uptime", "40% faster checkout"],
+      metrics: ["QR-based tickets", "Multi-role access", "OAuth + Paystack Integration"],
     },
     {
-      title: "Task Management App",
+      title: "PayForMe – Online Crowdfunding App",
       description:
-        "A collaborative project management tool with real-time updates, team collaboration features, and advanced analytics dashboard.",
-      image: "/placeholder.svg?height=300&width=500",
-      technologies: ["Vue.js", "Express", "MongoDB", "Socket.io"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com",
+        "A donation-based crowdfunding application where users can create campaigns, track contributions, and securely collect funds. Features campaign dashboards, Stripe payment integration, and social sharing to boost reach.",
+      image: "/placeholder.svg?height=300&width=500", // Replace with actual image path
+      technologies: ["Flask", "React", "MySQL", "Stripe", "Redis"],
+      liveUrl: "https://payforme.io", // Update with actual URL if available
+      githubUrl: "https://github.com/yourusername/payforme", // Replace with actual repo link
       featured: true,
-      metrics: ["5K+ teams", "Real-time sync", "Mobile responsive"],
+      metrics: ["Real-time donation tracking", "Secure Stripe payments", "Campaign analytics"],
     },
     {
       title: "Weather Analytics Dashboard",

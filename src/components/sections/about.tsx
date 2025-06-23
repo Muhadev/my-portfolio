@@ -34,7 +34,7 @@ export function About() {
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">About Me</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Passionate software engineer with 5+ years of experience building high-quality web applications and leading
+            Passionate software engineer with 2+ years of experience building high-quality web applications and leading
             development teams.
           </p>
         </div>
@@ -43,30 +43,32 @@ export function About() {
           <div>
             <div className="prose prose-lg max-w-none">
               <p className="text-muted-foreground mb-6">
-                I'm a full-stack developer who loves creating digital experiences that make a difference. My journey in
+                I'm a Software Engineer who loves creating digital experiences that make a difference. My journey in
                 software development started with a curiosity about how things work, and it has evolved into a passion
                 for building scalable, user-centric applications.
               </p>
 
               <p className="text-muted-foreground mb-6">
-                I specialize in modern web technologies including React, Node.js, and cloud platforms. I've had the
-                privilege of working with startups and enterprise companies, leading projects from conception to
+                I specialize in modern web technologies including Python, C, Typescript, React, and cloud platforms. I've had the
+                privilege of working with startups companies, leading projects from conception to
                 deployment.
               </p>
 
               <p className="text-muted-foreground mb-8">
-                When I'm not coding, you'll find me contributing to open source projects, mentoring junior developers,
+                When I'm not coding, you'll find me contributing to open source projects, mentoring fellow developers,
                 or exploring the latest in tech innovation.
               </p>
             </div>
 
             <div className="flex flex-wrap gap-2">
+              <Badge variant="secondary">Python</Badge>
               <Badge variant="secondary">React</Badge>
               <Badge variant="secondary">TypeScript</Badge>
               <Badge variant="secondary">Node.js</Badge>
               <Badge variant="secondary">Python</Badge>
               <Badge variant="secondary">AWS</Badge>
-              <Badge variant="secondary">Docker</Badge>
+              <Badge variant="secondary">C</Badge>
+              {/* <Badge variant="secondary">C</Badge> */}
             </div>
           </div>
 

@@ -36,19 +36,19 @@ export function Contact() {
     {
       icon: Mail,
       title: "Email",
-      value: "john.doe@example.com",
-      href: "mailto:john.doe@example.com",
+      value: "muhammedfayemi@gmail.com",
+      href: "muhammedfayemi@gmail.com",
     },
-    {
-      icon: Phone,
-      title: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567",
-    },
+    // {
+    //   icon: Phone,
+    //   title: "Phone",
+    //   value: "+1 (555) 123-4567",
+    //   href: "tel:+15551234567",
+    // },
     {
       icon: MapPin,
       title: "Location",
-      value: "San Francisco, CA",
+      value: "Everywhere",
       href: "#",
     },
   ]
@@ -68,7 +68,7 @@ export function Contact() {
           <div>
             <h3 className="text-2xl font-bold text-foreground mb-8">Let's Connect</h3>
             <p className="text-muted-foreground mb-8 leading-relaxed">
-              Whether you're looking to hire a developer, collaborate on a project, or just want to say hello, I'd love
+              Whether you're looking to hire a Software Engineerr, collaborate on a project, or just want to say hello, I'd love
               to hear from you. I typically respond within 24 hours.
             </p>
 
