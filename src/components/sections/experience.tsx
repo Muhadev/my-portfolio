@@ -9,7 +9,7 @@ export function Experience() {
   {
     title: "Junior Software Engineer",
     company: "Mactavis Digital",
-    location: "Somolu, Lagos, Nigeria",
+    location: "Lagos, Nigeria",
     period: "January 2025 – June 2025",
     description: [
       "Developed and maintained a full-stack pizza ordering platform with integrated payment APIs.",
