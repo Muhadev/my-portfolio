@@ -25,12 +25,12 @@ export function ResumeDownload({
     try {
       // Replace this URL with your actual resume file path
       // You should place your resume.pdf in the public folder
-      const resumeUrl = "/resume.pdf"
+      const resumeUrl = "/Muhammed_resume.pdf"
 
       // Create a temporary link element
       const link = document.createElement("a")
       link.href = resumeUrl
-      link.download = "John_Doe_Resume.pdf" // Replace with your actual name
+      link.download = "Muhammed_resume.pdf" // Replace with your actual name
       document.body.appendChild(link)
       link.click()
       document.body.removeChild(link)
