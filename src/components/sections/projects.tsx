@@ -14,7 +14,7 @@ export function Projects() {
         "A full-stack platform for managing tech events, featuring event creation, ticket generation with QR codes, role-based access control, and real-time payment processing. Implemented Google/GitHub OAuth, email confirmations, and admin dashboards.",
       image: "/images/TechMeet.png", // Replace with your actual image path
       technologies: ["React", "Django", "MySQL", "Tailwind CSS", "JWT", "Paystack", "SendGrid"],
-      liveUrl: "https://techmeet.io", // Update with actual URL if live
+      liveUrl: "https://tech-meet-io.vercel.app", // Update with actual URL if live
       githubUrl: "https://github.com/Muhadev/PayForMe", // Replace with actual repo link
       featured: true,
       metrics: ["QR-based tickets", "Multi-role access", "OAuth + Paystack Integration"],
@@ -25,33 +25,61 @@ export function Projects() {
         "A donation-based crowdfunding application where users can create campaigns, track contributions, and securely collect funds. Features campaign dashboards, Stripe payment integration, and social sharing to boost reach.",
       image: "/images/PayForMe.png", // Replace with actual image path
       technologies: ["Flask", "React", "MySQL", "Stripe", "Redis"],
-      liveUrl: "https://payForMe.io", // Update with actual URL if available
+      liveUrl: "https://payforme-two.vercel.app/", // Update with actual URL if available
       githubUrl: "https://github.com/Muhadev/PayForMe", // Replace with actual repo link
       featured: true,
       metrics: ["Real-time donation tracking", "Secure Stripe payments", "Campaign analytics"],
     },
     {
-      title: "Weather Analytics Dashboard",
+      title: "Image Kit Dashboard",
       description:
-        "A data visualization platform that aggregates weather data from multiple APIs and provides interactive charts and forecasting.",
+        "A modern image management and UI kit built with Next.js, showcasing component styling and image handling features.",
+      image: "/images/image-kit.png", // You can replace this with an actual screenshot path
+      technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
+      liveUrl: "https://image-kit-gold.vercel.app/", // Replace with actual live site URL if available
+      githubUrl: "https://github.com/Muhadev/image-kit", // Replace with real GitHub repo
+      featured: false,
+      metrics: ["Responsive UI", "Modular components", "Optimized performance"]
+    },
+
+    {
+      title: "Crypto Analytics Dashboard",
+      description:
+        "A cryptocurrency tracking and analytics platform displaying coin details, exchange data, and interactive price charts using real-time APIs.",
+      image: "/images/crypto.png", // Update this path to your image
+      technologies: ["React", "Redux", "Chart.js", "RapidAPI"],
+      liveUrl: "https://kryptoeverseapp.netlify.app/", // Replace with actual URL if deployed
+      githubUrl: "https://github.com/Muhadev/react-redux-cryptoapp", // Replace with actual GitHub repo
+      featured: false,
+      metrics: ["100+ cryptocurrencies", "Live exchange rates", "Interactive charts"]
+    },
+
+    {
+      title: "DevOps Automation Suite",
+      description:
+        "Complete CI/CD automation platform with infrastructure as code, automated testing, and deployment pipelines. Reduced deployment time from hours to minutes for 200+ applications.",
       image: "/placeholder.svg?height=300&width=500",
-      technologies: ["React", "D3.js", "Python", "FastAPI"],
+      technologies: ["Python", "Terraform", "Jenkins", "Docker", "Kubernetes", "AWS"],
       liveUrl: "https://example.com",
       githubUrl: "https://github.com",
       featured: false,
-      metrics: ["1M+ data points", "Real-time updates", "ML predictions"],
+      metrics: ["200+ apps deployed", "95% faster deployments", "Zero downtime"],
+      stars: 756,
+      forks: 234,
     },
     {
-      title: "Social Media Scheduler",
+      title: "Machine Learning Analytics Platform",
       description:
-        "An automation tool for scheduling and managing social media posts across multiple platforms with analytics and engagement tracking.",
+        "End-to-end ML platform for data scientists with automated model training, A/B testing, and production deployment. Processes 1TB+ data daily with real-time insights and predictions.",
       image: "/placeholder.svg?height=300&width=500",
-      technologies: ["Next.js", "Prisma", "PostgreSQL", "OAuth"],
+      technologies: ["Python", "TensorFlow", "Apache Spark", "Kafka", "Elasticsearch", "GCP"],
       liveUrl: "https://example.com",
       githubUrl: "https://github.com",
       featured: false,
-      metrics: ["50+ platforms", "Auto-scheduling", "Analytics dashboard"],
-    },
+      metrics: ["1TB+ daily data", "Real-time ML", "Auto-scaling"],
+      stars: 1450,
+      forks: 380,
+    }
   ]
 
   const featuredProjects = projects.filter((p) => p.featured)

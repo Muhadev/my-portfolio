@@ -11,7 +11,7 @@ export function Skills() {
       skills: [
         { name: "React/Next.js", level: 85 },
         { name: "TypeScript", level: 80 },
-        { name: "Tailwind CSS", level: 85 },
+        { name: "Tailwind CSS/Boostrap", level: 85 },
         { name: "Vue.js", level: 80 },
       ],
     },
@@ -20,7 +20,7 @@ export function Skills() {
       skills: [
         { name: "Node.js", level: 80 },
         { name: "Python", level: 90 },
-        { name: "PostgreSQL", level: 70 },
+        { name: "MYSQL", level: 70 },
         { name: "MongoDB", level: 75 },
       ],
     },

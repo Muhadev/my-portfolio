@@ -13,7 +13,7 @@ export function Footer() {
     },
     {
       icon: Linkedin,
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/fayemi-muhammed",
       label: "LinkedIn",
     },
     {
@@ -23,7 +23,7 @@ export function Footer() {
     },
     {
       icon: Mail,
-      href: "muhammedfayemi@gmail.com",
+      href: "mailto:muhammedfayemi@gmail.com",
       label: "Email",
     },
   ]

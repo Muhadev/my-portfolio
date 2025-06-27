@@ -94,7 +94,7 @@ export function Hero() {
 
           <div className="flex items-center justify-center mt-4 space-x-6">
             <a
-              href="https://github.com"
+              href="https://github.com/Muhadev"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors duration-200"
@@ -103,7 +103,7 @@ export function Hero() {
               <span className="sr-only">GitHub</span>
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/fayemi-muhammed"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors duration-200"
@@ -112,7 +112,7 @@ export function Hero() {
               <span className="sr-only">LinkedIn</span>
             </a>
             <a
-              href="mailto:john@example.com"
+              href="mailto:muhammedfayemi@gmail.com"
               className="text-muted-foreground hover:text-foreground transition-colors duration-200"
             >
               <Mail className="w-6 h-6" />

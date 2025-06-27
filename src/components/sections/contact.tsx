@@ -7,7 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Mail, MapPin, Phone, Send } from "lucide-react"
+import { Mail, MapPin, Phone, Send, CheckCircle } from "lucide-react"
 
 export function Contact() {
   const [formData, setFormData] = useState({
@@ -16,13 +16,37 @@ export function Contact() {
     subject: "",
     message: "",
   })
+  
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [isSubmitted, setIsSubmitted] = useState(false)
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    // Handle form submission here
-    console.log("Form submitted:", formData)
-    // Reset form
-    setFormData({ name: "", email: "", subject: "", message: "" })
+    setIsSubmitting(true)
+
+    try {
+      const response = await fetch("https://formspree.io/f/mnnvlpko", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      })
+
+      if (response.ok) {
+        setIsSubmitted(true)
+        setFormData({ name: "", email: "", subject: "", message: "" })
+        // Reset success message after 5 seconds
+        setTimeout(() => setIsSubmitted(false), 5000)
+      } else {
+        throw new Error("Failed to send message")
+      }
+    } catch (error) {
+      console.error("Error sending message:", error)
+      // You might want to show an error message to the user here
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -37,14 +61,8 @@ export function Contact() {
       icon: Mail,
       title: "Email",
       value: "muhammedfayemi@gmail.com",
-      href: "muhammedfayemi@gmail.com",
+      href: "mailto:muhammedfayemi@gmail.com",
     },
-    // {
-    //   icon: Phone,
-    //   title: "Phone",
-    //   value: "+1 (555) 123-4567",
-    //   href: "tel:+15551234567",
-    // },
     {
       icon: MapPin,
       title: "Location",
@@ -68,7 +86,7 @@ export function Contact() {
           <div>
             <h3 className="text-2xl font-bold text-foreground mb-8">Let's Connect</h3>
             <p className="text-muted-foreground mb-8 leading-relaxed">
-              Whether you're looking to hire a Software Engineerr, collaborate on a project, or just want to say hello, I'd love
+              Whether you're looking to hire a Software Engineer, collaborate on a project, or just want to say hello, I'd love
               to hear from you. I typically respond within 24 hours.
             </p>
 
@@ -106,6 +124,13 @@ export function Contact() {
               <CardTitle>Send a Message</CardTitle>
             </CardHeader>
             <CardContent>
+              {isSubmitted && (
+                <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg flex items-center">
+                  <CheckCircle className="w-5 h-5 text-green-600 mr-2" />
+                  <p className="text-green-800">Message sent successfully! I'll get back to you soon.</p>
+                </div>
+              )}
+              
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div>
@@ -121,6 +146,7 @@ export function Contact() {
                       onChange={handleChange}
                       className="w-full"
                       placeholder="Your name"
+                      disabled={isSubmitting}
                     />
                   </div>
                   <div>
@@ -136,6 +162,7 @@ export function Contact() {
                       onChange={handleChange}
                       className="w-full"
                       placeholder="your.email@example.com"
+                      disabled={isSubmitting}
                     />
                   </div>
                 </div>
@@ -153,6 +180,7 @@ export function Contact() {
                     onChange={handleChange}
                     className="w-full"
                     placeholder="What's this about?"
+                    disabled={isSubmitting}
                   />
                 </div>
 
@@ -168,12 +196,17 @@ export function Contact() {
                     onChange={handleChange}
                     className="w-full min-h-[120px]"
                     placeholder="Tell me about your project or opportunity..."
+                    disabled={isSubmitting}
                   />
                 </div>
 
-                <Button type="submit" className="w-full bg-primary hover:bg-primary/90">
+                <Button 
+                  type="submit" 
+                  className="w-full bg-primary hover:bg-primary/90"
+                  disabled={isSubmitting}
+                >
                   <Send className="w-4 h-4 mr-2" />
-                  Send Message
+                  {isSubmitting ? "Sending..." : "Send Message"}
                 </Button>
               </form>
             </CardContent>
