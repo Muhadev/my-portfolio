@@ -5,6 +5,17 @@ import { Github, Linkedin, Mail, Twitter } from "lucide-react"
 export function Footer() {
   const currentYear = new Date().getFullYear()
 
+  const XIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    viewBox="0 0 24 24"
+    fill="currentColor"
+    aria-hidden="true"
+    {...props}
+  >
+    <path d="M17.5 3h3.9l-6.9 7.8L22 21h-7.6l-4.7-6.5-5.4 6.5H.5l7.5-9L1 3h7.6l4.3 6 4.6-6z" />
+  </svg>
+)
+
   const socialLinks = [
     {
       icon: Github,
@@ -17,7 +28,7 @@ export function Footer() {
       label: "LinkedIn",
     },
     {
-      icon: Twitter,
+      icon: XIcon,
       href: "https://twitter.com/Muha_dev",
       label: "Twitter",
     },

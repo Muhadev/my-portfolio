@@ -19,6 +19,17 @@ export function Hero() {
     element?.scrollIntoView({ behavior: "smooth" })
   }
 
+  const XIcon = (props: React.SVGProps<SVGSVGElement>) => (
+    <svg
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      aria-hidden="true"
+      {...props}
+    >
+      <path d="M17.5 3h3.9l-6.9 7.8L22 21h-7.6l-4.7-6.5-5.4 6.5H.5l7.5-9L1 3h7.6l4.3 6 4.6-6z" />
+    </svg>
+  )
+
   return (
     <section className="min-h-[110vh] flex items-center justify-center relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-secondary/5" />
@@ -117,6 +128,15 @@ export function Hero() {
             >
               <Mail className="w-6 h-6" />
               <span className="sr-only">Email</span>
+            </a>
+            <a
+              href="https://twitter.com/Muha_dev"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-foreground transition-colors duration-200"
+            >
+              <XIcon className="w-6 h-6" />
+              <span className="sr-only">Twitter (X)</span>
             </a>
           </div>
         </div>
