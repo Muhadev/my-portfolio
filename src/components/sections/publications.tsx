@@ -65,7 +65,6 @@ export function Publications() {
   }
 
   const featuredPublications = publications.filter((p) => p.featured)
-  const otherPublications = publications.filter((p) => !p.featured)
 
   return (
     <section id="publications" className="py-20 bg-muted/30">

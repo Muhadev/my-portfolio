@@ -7,7 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Mail, MapPin, Phone, Send, CheckCircle } from "lucide-react"
+import { Mail, MapPin, Send, CheckCircle } from "lucide-react"
 
 export function Contact() {
   const [formData, setFormData] = useState({
