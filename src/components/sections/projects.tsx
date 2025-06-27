@@ -33,7 +33,7 @@ export function Projects() {
     {
       title: "Image Kit Dashboard",
       description:
-        "A modern image management and UI kit built with Next.js, showcasing component styling and image handling features.",
+        "A modern image management and UI kit built with Next.js, showcasing component styling and image conversion into file formats features.",
       image: "/images/image-kit.png", // You can replace this with an actual screenshot path
       technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
       liveUrl: "https://image-kit-gold.vercel.app/", // Replace with actual live site URL if available
