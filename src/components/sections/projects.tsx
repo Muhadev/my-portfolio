@@ -89,7 +89,7 @@ export function Projects() {
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">Featured Projects</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            A showcase of my recent work and the technologies I've used to bring ideas to life.
+            A showcase of my recent work and the technologies I&apos;ve used to bring ideas to life.
           </p>
         </div>
 

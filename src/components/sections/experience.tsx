@@ -51,7 +51,7 @@ export function Experience() {
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">Work Experience</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            My professional journey and the impact I've made at various organizations.
+            My professional journey and the impact I&apos;ve made at various organizations.
           </p>
         </div>
 

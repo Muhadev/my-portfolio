@@ -77,16 +77,16 @@ export function Contact() {
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">Get In Touch</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            I'm always interested in new opportunities and exciting projects. Let's discuss how we can work together.
+            I&apos;m always interested in new opportunities and exciting projects. Let&apos;s discuss how we can work together.
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Contact Information */}
           <div>
-            <h3 className="text-2xl font-bold text-foreground mb-8">Let's Connect</h3>
+            <h3 className="text-2xl font-bold text-foreground mb-8">Let&apos;s Connect</h3>
             <p className="text-muted-foreground mb-8 leading-relaxed">
-              Whether you're looking to hire a Software Engineer, collaborate on a project, or just want to say hello, I'd love
+              Whether you&apos;re looking to hire a Software Engineer, collaborate on a project, or just want to say hello, I&apos;d love
               to hear from you. I typically respond within 24 hours.
             </p>
 
@@ -112,7 +112,7 @@ export function Contact() {
             <div className="mt-8 p-6 bg-primary/5 rounded-lg border border-primary/10">
               <h4 className="font-semibold text-foreground mb-2">Open to Opportunities</h4>
               <p className="text-sm text-muted-foreground">
-                I'm currently available for full-time positions, consulting work, and interesting project
+                I&apos;m currently available for full-time positions, consulting work, and interesting project
                 collaborations.
               </p>
             </div>
@@ -127,7 +127,7 @@ export function Contact() {
               {isSubmitted && (
                 <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg flex items-center">
                   <CheckCircle className="w-5 h-5 text-green-600 mr-2" />
-                  <p className="text-green-800">Message sent successfully! I'll get back to you soon.</p>
+                  <p className="text-green-800">Message sent successfully! I&apos;ll get back to you soon.</p>
                 </div>
               )}
               

@@ -3,7 +3,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { ExternalLink, Calendar, Eye, MessageSquare, BookOpen, FileText, Video } from "lucide-react"
+import { ExternalLink, Calendar, BookOpen, FileText, Video } from "lucide-react"
 
 export function Publications() {
   const publications = [

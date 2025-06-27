@@ -43,19 +43,19 @@ export function About() {
           <div>
             <div className="prose prose-lg max-w-none">
               <p className="text-muted-foreground mb-6">
-                I'm a Software Engineer who loves creating digital experiences that make a difference. My journey in
+                I&apos;m a Software Engineer who loves creating digital experiences that make a difference. My journey in
                 software development started with a curiosity about how things work, and it has evolved into a passion
                 for building scalable, user-centric applications.
               </p>
 
               <p className="text-muted-foreground mb-6">
-                I specialize in modern web technologies including Python, C, Typescript, React, and cloud platforms. I've had the
+                I specialize in modern web technologies including Python, C, Typescript, React, and cloud platforms. I&apos;ve had the
                 privilege of working with startups companies, leading projects from conception to
                 deployment.
               </p>
 
               <p className="text-muted-foreground mb-8">
-                When I'm not coding, you'll find me contributing to open source projects, mentoring fellow developers,
+                When I&apos;m not coding, you&apos;ll find me contributing to open source projects, mentoring fellow developers,
                 or exploring the latest in tech innovation.
               </p>
             </div>
