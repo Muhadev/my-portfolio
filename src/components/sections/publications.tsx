@@ -8,28 +8,30 @@ import { ExternalLink, Calendar, Eye, MessageSquare, BookOpen, FileText, Video }
 export function Publications() {
   const publications = [
     {
-      type: "article",
-      title: "Building Scalable Microservices with Node.js and Kubernetes",
-      description:
-        "A comprehensive guide to designing and deploying microservices architecture that can handle millions of requests per day.",
-      platform: "Medium",
-      date: "2024-01-15",
-      readTime: "12 min read",
-      url: "https://medium.com/@johndoe/building-scalable-microservices",
-      tags: ["Microservices", "Node.js", "Kubernetes", "DevOps"],
-      featured: true,
-    },
+        "type": "article",
+        "title": "Building a UNIX Shell from Scratch in C: A Deep Dive into My ALX Shell Project",
+        "description":
+            "A technical exploration of how I built a functional UNIX command-line shell using C, covering process management, memory handling, and system calls.",
+        "platform": "Medium",
+        "date": "2025-06-26",
+        "readTime": "10 min read",
+        "url": "https://medium.com/@muhammedfayemi/building-a-unix-shell-from-scratch-in-c-a-deep-dive-into-my-alx-shell-project-de1f103038b3",  // Replace with actual URL after publishing
+        "tags": ["C Programming", "Linux", "Shell", "System Programming", "ALX"],
+        "featured": true
+        },
     {
-      type: "talk",
-      title: "The Future of Frontend Development: React Server Components",
-      description:
-        "Conference talk exploring React Server Components and their impact on modern web development patterns.",
-      platform: "React Conf 2024",
-      date: "2024-03-20",
-      url: "https://youtube.com/watch?v=example",
-      tags: ["React", "Server Components", "Frontend", "Performance"],
-      featured: true,
+        "type": "article",
+        "title": "AI Beyond 2025: Emerging Trends, Ethical Challenges, and Global Impact",
+        "description":
+            "An in-depth exploration of the future of artificial intelligence — examining upcoming breakthroughs, ethical dilemmas, and the profound ways AI will shape our society and global economy.",
+        "platform": "Medium",
+        "date": "2025-06-27",
+        "readTime": "7 min read",
+        "url": "https://medium.com/@muhammedfayemi/ai-beyond-2025-emerging-trends-ethical-challenges-and-global-impact-af24b087e398",
+        "tags": ["Artificial Intelligence", "Ethics", "Technology Trends", "Future", "Society"],
+        "featured": true
     },
+
   ]
 
   const getIcon = (type: string) => {

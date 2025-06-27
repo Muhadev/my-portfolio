@@ -55,30 +55,28 @@ export function Projects() {
     },
 
     {
-      title: "DevOps Automation Suite",
-      description:
-        "Complete CI/CD automation platform with infrastructure as code, automated testing, and deployment pipelines. Reduced deployment time from hours to minutes for 200+ applications.",
-      image: "/placeholder.svg?height=300&width=500",
-      technologies: ["Python", "Terraform", "Jenkins", "Docker", "Kubernetes", "AWS"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com",
-      featured: false,
-      metrics: ["200+ apps deployed", "95% faster deployments", "Zero downtime"],
-      stars: 756,
-      forks: 234,
+      "title": "Simple Shell (Unix Shell Clone)",
+      "description": "A custom UNIX command-line interpreter built in C. Implements core shell functionalities such as command parsing, execution, and process handling. Developed as a milestone project at ALX.",
+      "image": "/images/simple.png",
+      "technologies": ["C", "Unix", "Shell", "Linux", "System Calls"],
+      "liveUrl": "https://github.com/Muhadev/simple_shell",
+      "githubUrl": "https://github.com/Muhadev/simple_shell",  // Replace with your actual GitHub URL if different
+      "featured": false,
+      "metrics": ["Handles built-in and external commands", "Executes programs via PATH", "Manual memory and process management"],
+      "stars": 0,
+      "forks": 0
     },
     {
-      title: "Machine Learning Analytics Platform",
-      description:
-        "End-to-end ML platform for data scientists with automated model training, A/B testing, and production deployment. Processes 1TB+ data daily with real-time insights and predictions.",
-      image: "/placeholder.svg?height=300&width=500",
-      technologies: ["Python", "TensorFlow", "Apache Spark", "Kafka", "Elasticsearch", "GCP"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com",
-      featured: false,
-      metrics: ["1TB+ daily data", "Real-time ML", "Auto-scaling"],
-      stars: 1450,
-      forks: 380,
+      "title": "Personal Portfolio Website",
+      "description": "A responsive and modern portfolio built with Next.js 15, TypeScript, and Tailwind CSS. Showcases experience, skills, and projects with performance optimizations and accessibility best practices.",
+      "image": "/images/porfolio.png",
+      "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Vercel"],
+      "liveUrl": "https://github.com/Muhadev/simple_shell",
+      "githubUrl": "https://github.com/Muhadev/my-portfolio.git",  // Replace with your actual GitHub URL if different
+      "featured": false,
+      "metrics": ["100% responsive design", "Dark/light mode toggle", "SEO-optimized metadata"],
+      "stars": 0,
+      "forks": 0
     }
   ]
 
