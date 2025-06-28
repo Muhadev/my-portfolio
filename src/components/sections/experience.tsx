@@ -12,24 +12,25 @@ export function Experience() {
     location: "Lagos, Nigeria",
     period: "January 2025 – June 2025",
     description: [
-      "Developed and maintained a full-stack pizza ordering platform with integrated payment APIs.",
-      "Improved user experience through iterative UI design aligned with client requirements.",
-      "Built and extended RESTful APIs for an internal admin panel used by staff for order and user management.",
-      "Worked in an agile environment: performed code reviews, tested APIs, and collaborated with cross-functional teams.",
+      "Engineered a pizza ordering system used by 2,000+ monthly users, integrating Paystack, QR ticketing, and mobile responsiveness.",
+      "Spearheaded an admin dashboard enabling 30+ staff to manage user roles, transactions, and order fulfillment.",
+      "Improved backend API response time by 45% through query optimization and schema restructuring in Django REST.",
+      "Led API testing and documentation to support collaborative development in a fast-paced agile environment."
     ],
-    technologies: ["Python", "Django", "Flask", "React", "TypeScript"],
+    technologies: ["Python", "Django", "Flask", "React", "TypeScript"]
   },
   {
-    title: "Intern Software Engineer",
-    company: "ALX Africa",
-    location: "Remote / Africa-wide",
-    period: "September 2024 – December 2024",
+    title: "Contract Software Engineer",
+    company: "Lasaco Insurance Plc",
+    location: "Lagos, Nigeria",
+    period: "November 2023 – April 2024",
     description: [
-      "Contributed features to an educational web platform including lesson modules and student progress tracking.",
-      "Focused on usability, performance optimization, and clean code practices.",
-      "Collaborated with mentors and developers in an agile, peer-review driven environment.",
+      "Migrated legacy claims workflow to a secure web app serving over 500 monthly claimants.",
+      "Implemented a premium/tax engine supporting 10+ regional policies, increasing accuracy by 35%.",
+      "Automated the generation of 1,000+ dynamic policy documents with secure digital signatures.",
+      "Rolled out JWT-based authentication and granular access roles for underwriters, claim agents, and clients."
     ],
-    technologies: ["Python", "Flask", "React", "TypeScript", "MySQL", "Redis"],
+    technologies: ["Python", "Django", "React", "Bootstrap"]
   },
   {
     title: "Software Engineer & Mentor",
@@ -37,12 +38,22 @@ export function Experience() {
     location: "Lagos, Nigeria",
     period: "July 2024 – February 2025",
     description: [
-      "Designed and taught web development modules during a Girls-in-Tech Bootcamp.",
-      "Mentored students through project planning, coding, testing, and deployment.",
-      "Helped over 20 young women build real-world applications and gain industry-ready skills.",
+      "Spearheaded training sessions for 20+ aspiring female developers on agile workflows, frontend design, and Git.",
+      "Mentored teams on full-stack project delivery, reviewed 100+ code commits, and coached on deployment strategies."
     ],
-    technologies: ["React", "Node.js", "TypeScript", "MySQL", "Redis"],
+    technologies: ["React", "Node.js", "TypeScript", "MySQL", "Redis"]
   },
+  {
+    title: "Intern Software Engineer",
+    company: "ALX Africa",
+    location: "Remote / Africa-wide",
+    period: "September 2024 – December 2024",
+    description: [
+      "Refactored lesson tracking and dashboard components to reduce load time by 40%, boosting UX and maintainability.",
+      "Collaborated with 10+ mentors and interns in agile sprints to deliver new features and resolve technical debt."
+    ],
+    technologies: ["Python", "Flask", "React", "TypeScript", "MySQL", "Redis"]
+  }
 ]
 
   return (
