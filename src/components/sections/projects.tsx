@@ -19,6 +19,17 @@ export function Projects() {
       featured: true,
       metrics: ["QR-based tickets", "Multi-role access", "OAuth + Paystack Integration"],
     },
+      {
+      title: "NeXora – Unified Component Explorer",
+      description:
+        "A developer-centric platform that consolidates UI components from popular libraries like Shadcn/ui, Magic UI, and Aceternity UI. Features component previews, install snippets, and AI-assisted suggestions via Gemini API to accelerate UI development workflows.",
+      image: "/images/nexora.png", // Add a screenshot for NeXora
+      technologies: ["Next.js", "TypeScript", "Tailwind CSS", "OpenAI", "Gemini API"],
+      liveUrl: "https://ne-xora.vercel.app/", // Update if deployed
+      githubUrl: "https://github.com/Muhadev/Nexora",
+      featured: true,
+      metrics: ["Cross-library UI aggregation", "Live previews + install guides", "AI-powered code generation"],
+    },
     {
       title: "PayForMe – Online Crowdfunding App",
       description:
@@ -27,7 +38,7 @@ export function Projects() {
       technologies: ["Flask", "React", "MySQL", "Stripe", "Redis"],
       liveUrl: "https://payforme-two.vercel.app/", // Update with actual URL if available
       githubUrl: "https://github.com/Muhadev/PayForMe", // Replace with actual repo link
-      featured: true,
+      featured: false,
       metrics: ["Real-time donation tracking", "Secure Stripe payments", "Campaign analytics"],
     },
     {
@@ -63,18 +74,6 @@ export function Projects() {
       "githubUrl": "https://github.com/Muhadev/simple_shell",  // Replace with your actual GitHub URL if different
       "featured": false,
       "metrics": ["Handles built-in and external commands", "Executes programs via PATH", "Manual memory and process management"],
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "title": "Personal Portfolio Website",
-      "description": "A responsive and modern portfolio built with Next.js 15, TypeScript, and Tailwind CSS. Showcases experience, skills, and projects with performance optimizations and accessibility best practices.",
-      "image": "/images/porfolio.png",
-      "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Vercel"],
-      "liveUrl": "https://github.com/Muhadev/simple_shell",
-      "githubUrl": "https://github.com/Muhadev/my-portfolio.git",  // Replace with your actual GitHub URL if different
-      "featured": false,
-      "metrics": ["100% responsive design", "Dark/light mode toggle", "SEO-optimized metadata"],
       "stars": 0,
       "forks": 0
     }
