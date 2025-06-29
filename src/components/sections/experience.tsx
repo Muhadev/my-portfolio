@@ -8,7 +8,7 @@ export function Experience() {
  const experiences = [
   {
     title: "Junior Software Engineer",
-    company: "Mactavis Digital",
+    company: "Optisoft Technology Company Ltd",
     location: "Lagos, Nigeria",
     period: "January 2025 – June 2025",
     description: [
