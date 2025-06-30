@@ -8,6 +8,17 @@ import Image from "next/image"
 
 export function Projects() {
   const projects = [
+    {
+      title: "NeXora – Unified Component Explorer",
+      description:
+        "A developer-centric platform that consolidates UI components from popular libraries like Shadcn/ui, Magic UI, and Aceternity UI. Features component previews, install snippets, and AI-assisted suggestions via Gemini API to accelerate UI development workflows.",
+      image: "/images/nexora.png", // Add a screenshot for NeXora
+      technologies: ["Next.js", "TypeScript", "Tailwind CSS", "OpenAI", "Gemini API"],
+      liveUrl: "https://ne-xora.vercel.app/", // Update if deployed
+      githubUrl: "https://github.com/Muhadev/Nexora",
+      featured: true,
+      metrics: ["Cross-library UI aggregation", "Live previews + install guides", "AI-powered code generation"],
+    },
       {
       title: "TechMeet.io – Tech Event Management Platform",
       description:
@@ -18,17 +29,6 @@ export function Projects() {
       githubUrl: "https://github.com/Muhadev/PayForMe", // Replace with actual repo link
       featured: true,
       metrics: ["QR-based tickets", "Multi-role access", "OAuth + Paystack Integration"],
-    },
-      {
-      title: "NeXora – Unified Component Explorer",
-      description:
-        "A developer-centric platform that consolidates UI components from popular libraries like Shadcn/ui, Magic UI, and Aceternity UI. Features component previews, install snippets, and AI-assisted suggestions via Gemini API to accelerate UI development workflows.",
-      image: "/images/nexora.png", // Add a screenshot for NeXora
-      technologies: ["Next.js", "TypeScript", "Tailwind CSS", "OpenAI", "Gemini API"],
-      liveUrl: "https://ne-xora.vercel.app/", // Update if deployed
-      githubUrl: "https://github.com/Muhadev/Nexora",
-      featured: true,
-      metrics: ["Cross-library UI aggregation", "Live previews + install guides", "AI-powered code generation"],
     },
     {
       title: "PayForMe – Online Crowdfunding App",
