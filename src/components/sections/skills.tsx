@@ -9,8 +9,9 @@ export function Skills() {
     {
       title: "Frontend Development",
       skills: [
-        { name: "React/Next.js", level: 85 },
-        { name: "TypeScript", level: 80 },
+        { name: "React", level: 85 },
+        { name: "Next.js", level: 85 },
+        { name: "TypeScript/Javascript", level: 80 },
         { name: "Tailwind CSS/Boostrap", level: 85 },
         { name: "Vue.js", level: 80 },
       ],
@@ -20,6 +21,7 @@ export function Skills() {
       skills: [
         { name: "Node.js", level: 80 },
         { name: "Python", level: 90 },
+        { name: "GO", level: 80 },
         { name: "MYSQL", level: 70 },
         { name: "MongoDB", level: 75 },
       ],
@@ -29,6 +31,7 @@ export function Skills() {
       skills: [
         { name: "AWS", level: 75 },
         { name: "Docker", level: 80 },
+        { name: "Nginx", level: 80 },
         { name: "CI/CD", level: 70 },
         { name: "Kubernetes", level: 60 },
       ],
@@ -40,6 +43,7 @@ export function Skills() {
         { name: "Jest/Testing", level: 85 },
         { name: "GraphQL", level: 80 },
         { name: "Redis", level: 75 },
+        { name: "Webpack", level: 85 },
       ],
     },
   ]
