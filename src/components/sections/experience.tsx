@@ -11,17 +11,18 @@ export function Experience() {
     company: "Optisoft Technology Company Ltd",
     location: "Lagos, Nigeria",
     period: "January 2025 – June 2025",
-    description: [
-      "Engineered a pizza ordering system used by 2,000+ monthly users, integrating Paystack, QR ticketing, and mobile responsiveness.",
-      "Spearheaded an admin dashboard enabling 30+ staff to manage user roles, transactions, and order fulfillment.",
-      "Improved backend API response time by 45% through query optimization and schema restructuring in Django REST.",
-      "Led API testing and documentation to support collaborative development in a fast-paced agile environment."
+      "description": [
+      "Built on the existing loan servicing infrastructure of Rosabon Financial Services (RFS), a CBN-licensed non-bank financial intermediary, enhancing modules for loan origination, repayment tracking, and credit evaluation workflows.",
+      "Integrated automated credit risk checks, document verification, and compliance flows in line with CBN regulations.",
+      "Spearheaded an admin dashboard enabling 30+ staff to manage customer onboarding, loan approvals, repayments, and access control roles.",
+      "Improved backend API response time by 45% through database schema restructuring, indexed queries, and optimized Django REST serializers.",
+      "Led API testing and OpenAPI documentation to support collaborative development in a fast-paced agile team."
     ],
     technologies: ["Python", "Django", "Flask", "React", "TypeScript"]
   },
   {
     title: "Contract Software Engineer",
-    company: "Lasaco Insurance Plc",
+    company: "Lasaco Assurance Plc",
     location: "Lagos, Nigeria",
     period: "November 2023 – April 2024",
     description: [
