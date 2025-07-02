@@ -36,7 +36,7 @@ export function Experience() {
     title: "Software Engineer & Mentor",
     company: "Africa Agility",
     location: "Lagos, Nigeria",
-    period: "July 2024 – February 2025",
+    period: "July 2023 – February 2025",
     description: [
       "Spearheaded training sessions for 20+ aspiring female developers on agile workflows, frontend design, and Git.",
       "Mentored teams on full-stack project delivery, reviewed 100+ code commits, and coached on deployment strategies."
