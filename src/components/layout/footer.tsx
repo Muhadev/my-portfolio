@@ -24,7 +24,7 @@ export function Footer() {
     },
     {
       icon: Linkedin,
-      href: "https://www.linkedin.com/in/muhadev/",
+      href: "https://www.linkedin.com/in/fayemi-muhammed/",
       label: "LinkedIn",
     },
     {
