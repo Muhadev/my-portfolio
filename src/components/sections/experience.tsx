@@ -7,7 +7,7 @@ import { CalendarDays, MapPin } from "lucide-react"
 export function Experience() {
  const experiences = [
   {
-    title: "Junior Software Engineer",
+    title: "Software Engineer",
     company: "Optisoft Technology Company Ltd",
     location: "Lagos, Nigeria",
     period: "January 2025 – June 2025",

@@ -5,7 +5,7 @@ import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 
 const inter = Inter({ subsets: ["latin"] })
-
+  
 export const metadata: Metadata = {
   title: "Fayemi Muhammed - Software Engineer",
   description:
